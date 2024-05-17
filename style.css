@@ -1,0 +1,220 @@
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.navbar {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+#navItem1 {
+  transition: all ease 0.25s;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 20px;
+  width: 80px;
+  color: black;
+  text-align: center;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-item {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+}
+#navItem5:hover {
+  background-color: chocolate;
+  width: 170px;
+  color: white;
+  font-weight: bolder;
+}
+#navItem1:hover {
+  background-color: rgb(230, 105, 105);
+  width: 170px;
+  color: white;
+  font-weight: bolder;
+}
+#navbarDropdownMenuLink:hover {
+  background-color: rgb(232, 152, 202);
+  width: 170px;
+  color: white;
+  font-weight: bolder;
+}
+#navItem3:hover {
+  background-color: rgb(131, 196, 234);
+  width: 170px;
+  color: white;
+  font-weight: bolder;
+}
+#navItem4:hover {
+  background-color: rgb(236, 182, 56);
+  width: 170px;
+  color: white;
+  font-weight: bolder;
+}
+
+#navbarDropdownMenuLink {
+  transition: all ease 0.5s;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 20px;
+  width: 100px;
+  color: black;
+  text-align: center;
+}
+#navItem3 {
+  color: black;
+  transition: all ease 0.5s;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 20px;
+  width: 100px;
+  text-align: center;
+}
+#navItem4 {
+  transition: all ease 0.5s;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 20px;
+  width: 100px;
+  text-align: center;
+  color: black;
+}
+#navItem5 {
+  transition: all ease 0.5s;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 20px;
+  width: 100px;
+  text-align: center;
+  color: black;
+}
+.bg-conatiner {
+  background-image: url("./images/a-minimalist-and-professional-image-of-a-school-bu-Ka_SfWfXSN2A6N-JqVT1Cg-Bc8fvnWpQgqi1SlGW7lcZA.jpeg");
+  background-size: cover;
+  height: max-content;
+
+  overflow: hidden;
+}
+
+.text {
+  font-family: serif;
+  font-size: 25px;
+  color: darkblue;
+
+  margin-top: 108px;
+}
+
+.text-paragraph {
+  font-family: "roboto";
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+.text-paragraph span {
+  color: rgb(0, 234, 251);
+  font-weight: bolder;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: url("https://img.freepik.com/free-vector/realistic-neon-lights-background_23-2148907367.jpg");
+}
+.text-para {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  color: black;
+  font-weight: 600;
+  animation-name: rotating;
+  animation-duration: 0.35s;
+  animation-timing-function: ease;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotatez(0deg);
+  }
+  to {
+    transform: rotatez(5deg);
+  }
+}
+
+.box-container {
+  padding: 40px;
+  border-style: solid;
+  border-color: ghostwhite;
+  border-radius: 16px;
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+.box-text {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+.box-image {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+button {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+#content-1 {
+  transform: translateX(0%);
+}
+#content-2 {
+  display: none;
+}
+#content-3 {
+  display: none;
+}
+.contact-section-heading{
+  margin-top: 10px;
+  
+  font-size: 40px;
+  font-weight: bold;
+}
+.contact-heading{
+  font-size: large;
+  background-color: blue;
+  color: white;
+  height: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style:italic;
+  border-radius: 0px;
+  padding-top: 4px;
+  font-weight: 550;
+}
+.contact-block{
+  gap: 20px;
+}
+.contact-inputs{
+  height: 40px;
+  color:black;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+textarea{
+  height: 90px !important;
+}
+.submit-button{
+  color: white;
+  background-color: black;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+textarea::placeholder{
+  align-items: center;
+  padding-left: 5px;
+  padding-top: 5px;
+}
