@@ -124,9 +124,9 @@
 }
 .text-para {
   font-family: "Courier New", Courier, monospace;
-  font-size: 15px;
+  font-size: 18px;
   color: black;
-  font-weight: 600;
+  font-weight: 500;
   animation-name: rotating;
   animation-duration: 0.35s;
   animation-timing-function: ease;
@@ -155,13 +155,19 @@
   backdrop-filter: blur(8px);
 }
 .box-text {
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 600;
+  color: blue;
   font-family: "Times New Roman", Times, serif;
 }
 .box-image {
-  height: 120px;
-  width: 120px;
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+}
+.para-image{
+  height: 140% !important;
+  width: 100% !important;
   border-radius: 50%;
 }
 button {
