@@ -6,13 +6,14 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("content-1").style.display = "block";
     document.getElementById("content-2").style.display = "none";
     document.getElementById("content-3").style.display = "none";
-    textPara.innerHTML="I am interested in";
+    textPara.innerHTML="Pick the class you're in:";
  })
     tenthClassContainer.addEventListener("click", function() {
       document.getElementById("content-1").style.display = "none";
       document.getElementById("content-2").style.display = "block";
       document.getElementById("content-3").style.display = "none";
-      textPara.innerHTML="back";
+      textPara.innerHTML = 'back <i class="fas fa-reply" style="color: blue;"></i>';
+
       
     });
   
@@ -20,7 +21,8 @@ document.addEventListener("DOMContentLoaded", function() {
       document.getElementById("content-1").style.display = "none";
       document.getElementById("content-2").style.display = "none";
       document.getElementById("content-3").style.display = "block";
-      textPara.innerHTML="back";
+      textPara.innerHTML = 'back <i class="fas fa-reply" style="color: blue;"></i>';
+
     });
   });
   
